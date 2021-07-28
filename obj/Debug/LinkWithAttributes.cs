@@ -1,0 +1,1 @@
+[assembly: ObjCRuntime.LinkWith ("MAMapKit.a", SmartLink = true, ForceLoad = true, Frameworks = "OpenGLES UIKit Foundation CoreGraphics QuartzCore CoreLocation CoreTelephony SystemConfiguration Security AdSupport JavaScriptCore GLKit", LinkerFlags = "-ObjC -all_load -lz -lstdc++ -lc++")]
